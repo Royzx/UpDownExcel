@@ -1,0 +1,2855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - db_authorize@114.215.168.50" uuid="d2755981-5dbb-4717-ab31-d3ec204c238f">
+    <database-info product="MySQL" version="5.5.40" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="db_authorize"/>
+      <table id="2" parent="1" name="tb_ac_balance_db_801382023539120160505143655"/>
+      <table id="3" parent="1" name="tb_ac_balance_db_801598819474520160505144123"/>
+      <table id="4" parent="1" name="tb_ac_balance_db_801598819474520160510152858"/>
+      <table id="5" parent="1" name="tb_ac_balance_db_801598819474520160510171314"/>
+      <table id="6" parent="1" name="tb_ac_balance_db_801866804002620160218154749"/>
+      <table id="7" parent="1" name="tb_ac_balance_db_801866804002620160316200000"/>
+      <table id="8" parent="1" name="tb_ac_balance_db_801866804002620160505141232"/>
+      <table id="9" parent="1" name="tb_ac_balance_db_801866804002620160507135316"/>
+      <table id="10" parent="1" name="tb_ac_balance_db_801872097107120160505144149"/>
+      <table id="11" parent="1" name="tb_ac_balance_db_801872097107120160506172242"/>
+      <table id="12" parent="1" name="tb_ac_balance_db_801890748949020160311110420"/>
+      <table id="13" parent="1" name="tb_ac_balance_db_801890748949020160505144235"/>
+      <table id="14" parent="1" name="tb_ac_balance_db_801898949452220160505144437"/>
+      <table id="15" parent="1" name="tb_ac_balance_db_model0"/>
+      <table id="16" parent="1" name="tb_ac_db_801382023539120160505143655"/>
+      <table id="17" parent="1" name="tb_ac_db_801598819474520160505144123"/>
+      <table id="18" parent="1" name="tb_ac_db_801598819474520160510152858"/>
+      <table id="19" parent="1" name="tb_ac_db_801598819474520160510171314"/>
+      <table id="20" parent="1" name="tb_ac_db_801866804002620160218154749"/>
+      <table id="21" parent="1" name="tb_ac_db_801866804002620160505141232"/>
+      <table id="22" parent="1" name="tb_ac_db_801866804002620160507135316"/>
+      <table id="23" parent="1" name="tb_ac_db_801872097107120160505144149"/>
+      <table id="24" parent="1" name="tb_ac_db_801872097107120160506172242"/>
+      <table id="25" parent="1" name="tb_ac_db_801890748949020160218164735"/>
+      <table id="26" parent="1" name="tb_ac_db_801890748949020160311110420"/>
+      <table id="27" parent="1" name="tb_ac_db_801890748949020160505144235"/>
+      <table id="28" parent="1" name="tb_ac_db_801898949452220160505144437"/>
+      <table id="29" parent="1" name="tb_ac_db_model0"/>
+      <table id="30" parent="1" name="tb_ac_report_db_801382023539120160505143655"/>
+      <table id="31" parent="1" name="tb_ac_report_db_801598819474520160505144123"/>
+      <table id="32" parent="1" name="tb_ac_report_db_801598819474520160510152858"/>
+      <table id="33" parent="1" name="tb_ac_report_db_801598819474520160510171314"/>
+      <table id="34" parent="1" name="tb_ac_report_db_801866804002620160505141232"/>
+      <table id="35" parent="1" name="tb_ac_report_db_801866804002620160507135316"/>
+      <table id="36" parent="1" name="tb_ac_report_db_801872097107120160505144149"/>
+      <table id="37" parent="1" name="tb_ac_report_db_801872097107120160506172242"/>
+      <table id="38" parent="1" name="tb_ac_report_db_801890748949020160311110420"/>
+      <table id="39" parent="1" name="tb_ac_report_db_801890748949020160505144235"/>
+      <table id="40" parent="1" name="tb_ac_report_db_801898949452220160505144437"/>
+      <table id="41" parent="1" name="tb_ac_report_db_model0"/>
+      <table id="42" parent="1" name="tb_ac_report_db_modelai"/>
+      <table id="43" parent="1" name="tb_authorize00"/>
+      <table id="44" parent="1" name="tb_authorize01"/>
+      <table id="45" parent="1" name="tb_dbinfo"/>
+      <table id="46" parent="1" name="tb_jv_db_801382023539120160505143655"/>
+      <table id="47" parent="1" name="tb_jv_db_801598819474520160505144123"/>
+      <table id="48" parent="1" name="tb_jv_db_801598819474520160510152858"/>
+      <table id="49" parent="1" name="tb_jv_db_801598819474520160510171314"/>
+      <table id="50" parent="1" name="tb_jv_db_801866804002620160218154749"/>
+      <table id="51" parent="1" name="tb_jv_db_801866804002620160505141232"/>
+      <table id="52" parent="1" name="tb_jv_db_801866804002620160507135316"/>
+      <table id="53" parent="1" name="tb_jv_db_801872097107120160505144149"/>
+      <table id="54" parent="1" name="tb_jv_db_801872097107120160506172242"/>
+      <table id="55" parent="1" name="tb_jv_db_801890748949020160218164735"/>
+      <table id="56" parent="1" name="tb_jv_db_801890748949020160311110420"/>
+      <table id="57" parent="1" name="tb_jv_db_801890748949020160505144235"/>
+      <table id="58" parent="1" name="tb_jv_db_801898949452220160505144437"/>
+      <table id="59" parent="1" name="tb_jv_db_model0"/>
+      <column id="60" parent="2" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="61" parent="2" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="62" parent="2" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="63" parent="2" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="64" parent="2" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="65" parent="2" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="66" parent="2" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="67" parent="2" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="68" parent="2" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="69" parent="2" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="70" parent="3" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="71" parent="3" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="72" parent="3" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="73" parent="3" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="74" parent="3" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="75" parent="3" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="76" parent="3" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="77" parent="3" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="78" parent="3" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="79" parent="3" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="80" parent="4" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="81" parent="4" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="82" parent="4" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="83" parent="4" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="84" parent="4" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="85" parent="4" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="86" parent="4" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="87" parent="4" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="88" parent="4" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="89" parent="4" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="90" parent="5" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="91" parent="5" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="92" parent="5" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="93" parent="5" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="94" parent="5" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="95" parent="5" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="96" parent="5" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="97" parent="5" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="98" parent="5" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="99" parent="5" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="100" parent="6" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="101" parent="6" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="102" parent="6" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="103" parent="6" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="104" parent="6" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="105" parent="6" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="106" parent="6" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="107" parent="6" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="108" parent="6" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="109" parent="6" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="110" parent="7" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="111" parent="7" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="112" parent="7" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="113" parent="7" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="114" parent="7" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="115" parent="7" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="116" parent="7" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="117" parent="7" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="118" parent="7" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="119" parent="7" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="120" parent="8" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="121" parent="8" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="122" parent="8" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="123" parent="8" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="124" parent="8" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="125" parent="8" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="126" parent="8" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="127" parent="8" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="128" parent="8" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="129" parent="8" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="130" parent="9" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="131" parent="9" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="132" parent="9" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="133" parent="9" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="134" parent="9" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="135" parent="9" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="136" parent="9" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="137" parent="9" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="138" parent="9" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="139" parent="9" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="140" parent="10" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="141" parent="10" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="142" parent="10" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="143" parent="10" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="144" parent="10" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="145" parent="10" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="146" parent="10" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="147" parent="10" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="148" parent="10" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="149" parent="10" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="150" parent="11" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="151" parent="11" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="152" parent="11" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="153" parent="11" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="154" parent="11" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="155" parent="11" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="156" parent="11" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="157" parent="11" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="158" parent="11" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="159" parent="11" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="160" parent="12" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="161" parent="12" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="162" parent="12" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="163" parent="12" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="164" parent="12" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="165" parent="12" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="166" parent="12" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="167" parent="12" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="168" parent="12" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="169" parent="12" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="170" parent="13" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="171" parent="13" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="172" parent="13" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="173" parent="13" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="174" parent="13" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="175" parent="13" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="176" parent="13" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="177" parent="13" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="178" parent="13" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="179" parent="13" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="180" parent="14" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="181" parent="14" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="182" parent="14" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="183" parent="14" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="184" parent="14" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="185" parent="14" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="186" parent="14" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="187" parent="14" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="188" parent="14" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="189" parent="14" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="190" parent="15" name="idtb_ac_balance">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="191" parent="15" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="192" parent="15" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="193" parent="15" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="194" parent="15" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="195" parent="15" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="196" parent="15" name="balance">
+        <data-type>decimal(16,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="197" parent="15" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="198" parent="15" name="idtb_ac_balance_UNIQUE">
+        <columns>idtb_ac_balance</columns>
+        <underlying-index>idtb_ac_balance_UNIQUE</underlying-index>
+      </key>
+      <key id="199" parent="15" name="PRIMARY">
+        <columns>idtb_ac_balance</columns>
+        <primary>1</primary>
+      </key>
+      <column id="200" parent="16" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="201" parent="16" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="202" parent="16" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="203" parent="16" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="204" parent="16" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="205" parent="16" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="206" parent="16" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="207" parent="16" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="208" parent="16" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="209" parent="17" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="210" parent="17" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="211" parent="17" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="212" parent="17" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="213" parent="17" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="214" parent="17" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="215" parent="17" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="216" parent="17" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="217" parent="17" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="218" parent="18" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="219" parent="18" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="220" parent="18" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="221" parent="18" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="222" parent="18" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="223" parent="18" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="224" parent="18" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="225" parent="18" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="226" parent="18" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="227" parent="19" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="228" parent="19" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="229" parent="19" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="230" parent="19" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="231" parent="19" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="232" parent="19" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="233" parent="19" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="234" parent="19" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="235" parent="19" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="236" parent="20" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="237" parent="20" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="238" parent="20" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="239" parent="20" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="240" parent="20" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="241" parent="20" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="242" parent="20" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="243" parent="20" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="244" parent="20" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="245" parent="21" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="246" parent="21" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="247" parent="21" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="248" parent="21" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="249" parent="21" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="250" parent="21" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="251" parent="21" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="252" parent="21" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="253" parent="21" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="254" parent="22" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="255" parent="22" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="256" parent="22" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="257" parent="22" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="258" parent="22" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="259" parent="22" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="260" parent="22" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="261" parent="22" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="262" parent="22" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="263" parent="23" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="264" parent="23" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="265" parent="23" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="266" parent="23" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="267" parent="23" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="268" parent="23" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="269" parent="23" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="270" parent="23" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="271" parent="23" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="272" parent="24" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="273" parent="24" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="274" parent="24" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="275" parent="24" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="276" parent="24" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="277" parent="24" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="278" parent="24" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="279" parent="24" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="280" parent="24" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="281" parent="25" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="282" parent="25" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="283" parent="25" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="284" parent="25" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="285" parent="25" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="286" parent="25" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="287" parent="25" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="288" parent="25" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="289" parent="25" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="290" parent="26" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="291" parent="26" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="292" parent="26" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="293" parent="26" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="294" parent="26" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="295" parent="26" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="296" parent="26" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="297" parent="26" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="298" parent="26" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="299" parent="27" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="300" parent="27" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="301" parent="27" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="302" parent="27" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="303" parent="27" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="304" parent="27" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="305" parent="27" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="306" parent="27" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="307" parent="27" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="308" parent="28" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="309" parent="28" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="310" parent="28" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="311" parent="28" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="312" parent="28" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="313" parent="28" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="314" parent="28" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="315" parent="28" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="316" parent="28" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="317" parent="29" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="318" parent="29" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="319" parent="29" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="320" parent="29" name="direction">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="321" parent="29" name="upperid">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="322" parent="29" name="ass">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <index id="323" parent="29" name="id_UNIQUE">
+        <columns>accode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="324" parent="29" name="id_UNIQUE">
+        <columns>accode</columns>
+        <underlying-index>id_UNIQUE</underlying-index>
+      </key>
+      <key id="325" parent="29" name="PRIMARY">
+        <columns>accode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="326" parent="30" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="327" parent="30" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="328" parent="30" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="329" parent="30" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="330" parent="30" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="331" parent="30" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="332" parent="30" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="333" parent="31" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="334" parent="31" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="335" parent="31" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="336" parent="31" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="337" parent="31" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="338" parent="31" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="339" parent="31" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="340" parent="32" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="341" parent="32" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="342" parent="32" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="343" parent="32" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="344" parent="32" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="345" parent="32" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="346" parent="32" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="347" parent="33" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="348" parent="33" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="349" parent="33" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="350" parent="33" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="351" parent="33" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="352" parent="33" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="353" parent="33" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="354" parent="34" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="355" parent="34" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="356" parent="34" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="357" parent="34" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="358" parent="34" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="359" parent="34" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="360" parent="34" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="361" parent="35" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="362" parent="35" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="363" parent="35" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="364" parent="35" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="365" parent="35" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="366" parent="35" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="367" parent="35" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="368" parent="36" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="369" parent="36" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="370" parent="36" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="371" parent="36" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="372" parent="36" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="373" parent="36" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="374" parent="36" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="375" parent="37" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="376" parent="37" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="377" parent="37" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="378" parent="37" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="379" parent="37" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="380" parent="37" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="381" parent="37" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="382" parent="38" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="383" parent="38" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="384" parent="38" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="385" parent="38" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="386" parent="38" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="387" parent="38" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="388" parent="38" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="389" parent="39" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="390" parent="39" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="391" parent="39" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="392" parent="39" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="393" parent="39" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="394" parent="39" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="395" parent="39" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="396" parent="40" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="397" parent="40" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="398" parent="40" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="399" parent="40" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="400" parent="40" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="401" parent="40" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="402" parent="40" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="403" parent="41" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="404" parent="41" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="405" parent="41" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="406" parent="41" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="407" parent="41" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="408" parent="41" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="409" parent="41" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="410" parent="42" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="411" parent="42" name="report">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="412" parent="42" name="hashname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="413" parent="42" name="line">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="414" parent="42" name="accode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="415" parent="42" name="direction">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="416" parent="42" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="417" parent="43" name="usrid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="418" parent="43" name="pwd">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="419" parent="43" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+        <default-expression>&apos;&quot;&quot;&apos;</default-expression>
+      </column>
+      <column id="420" parent="43" name="defaultdbid">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <index id="421" parent="43" name="usrid_UNIQUE">
+        <columns>usrid</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="422" parent="43" name="PRIMARY">
+        <columns>usrid</columns>
+        <primary>1</primary>
+      </key>
+      <key id="423" parent="43" name="usrid_UNIQUE">
+        <columns>usrid</columns>
+        <underlying-index>usrid_UNIQUE</underlying-index>
+      </key>
+      <column id="424" parent="44" name="index">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="425" parent="44" name="dbid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="426" parent="44" name="nameOfdb">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="427" parent="44" name="nameOfCompany">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="428" parent="44" name="usrid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="429" parent="44" name="level">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="430" parent="44" name="usrid_idx">
+        <columns>usrid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="431" parent="44" name="PRIMARY">
+        <columns>index</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="432" parent="44" name="usrid">
+        <columns>usrid</columns>
+        <ref-key>~.tb_authorize00.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="433" parent="45" name="dbid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="434" parent="45" name="vouchername">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="435" parent="45" name="currency">
+        <data-type>varchar(32)</data-type>
+        <default-expression>&apos;RMB&apos;</default-expression>
+      </column>
+      <index id="436" parent="45" name="dbid_UNIQUE">
+        <columns>dbid</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="437" parent="45" name="dbid_UNIQUE">
+        <columns>dbid</columns>
+        <underlying-index>dbid_UNIQUE</underlying-index>
+      </key>
+      <key id="438" parent="45" name="PRIMARY">
+        <columns>dbid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="439" parent="46" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="440" parent="46" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="441" parent="46" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="442" parent="46" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="443" parent="46" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="444" parent="46" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="445" parent="46" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="446" parent="46" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="447" parent="46" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="448" parent="46" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="449" parent="46" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="450" parent="46" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="451" parent="46" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="452" parent="46" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="453" parent="46" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="454" parent="46" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="455" parent="46" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="456" parent="46" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="457" parent="46" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="458" parent="46" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="459" parent="46" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="460" parent="46" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="461" parent="46" name="accountedby">
+        <data-type>varchar(32)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="462" parent="46" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="463" parent="47" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="464" parent="47" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="465" parent="47" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="466" parent="47" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="467" parent="47" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="468" parent="47" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="469" parent="47" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="470" parent="47" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="471" parent="47" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="472" parent="47" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="473" parent="47" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="474" parent="47" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="475" parent="47" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="476" parent="47" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="477" parent="47" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="478" parent="47" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="479" parent="47" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="480" parent="47" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="481" parent="47" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="482" parent="47" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="483" parent="47" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="484" parent="47" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="485" parent="47" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="486" parent="47" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="487" parent="48" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="488" parent="48" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="489" parent="48" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="490" parent="48" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="491" parent="48" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="492" parent="48" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="493" parent="48" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="494" parent="48" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="495" parent="48" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="496" parent="48" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="497" parent="48" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="498" parent="48" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="499" parent="48" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="500" parent="48" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="501" parent="48" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="502" parent="48" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="503" parent="48" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="504" parent="48" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="505" parent="48" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="506" parent="48" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="507" parent="48" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="508" parent="48" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="509" parent="48" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="510" parent="48" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="511" parent="49" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="512" parent="49" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="513" parent="49" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="514" parent="49" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="515" parent="49" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="516" parent="49" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="517" parent="49" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="518" parent="49" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="519" parent="49" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="520" parent="49" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="521" parent="49" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="522" parent="49" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="523" parent="49" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="524" parent="49" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="525" parent="49" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="526" parent="49" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="527" parent="49" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="528" parent="49" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="529" parent="49" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="530" parent="49" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="531" parent="49" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="532" parent="49" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="533" parent="49" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="534" parent="49" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="535" parent="50" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="536" parent="50" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="537" parent="50" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="538" parent="50" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="539" parent="50" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="540" parent="50" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="541" parent="50" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="542" parent="50" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="543" parent="50" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="544" parent="50" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="545" parent="50" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="546" parent="50" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="547" parent="50" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="548" parent="50" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="549" parent="50" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="550" parent="50" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="551" parent="50" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="552" parent="50" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="553" parent="50" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="554" parent="50" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="555" parent="50" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="556" parent="50" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="557" parent="50" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="558" parent="50" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="559" parent="51" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="560" parent="51" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="561" parent="51" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="562" parent="51" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="563" parent="51" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="564" parent="51" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="565" parent="51" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="566" parent="51" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="567" parent="51" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="568" parent="51" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="569" parent="51" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="570" parent="51" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="571" parent="51" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="572" parent="51" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="573" parent="51" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="574" parent="51" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="575" parent="51" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="576" parent="51" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="577" parent="51" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="578" parent="51" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="579" parent="51" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="580" parent="51" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="581" parent="51" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="582" parent="51" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="583" parent="52" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="584" parent="52" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="585" parent="52" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="586" parent="52" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="587" parent="52" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="588" parent="52" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="589" parent="52" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="590" parent="52" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="591" parent="52" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="592" parent="52" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="593" parent="52" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="594" parent="52" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="595" parent="52" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="596" parent="52" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="597" parent="52" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="598" parent="52" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="599" parent="52" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="600" parent="52" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="601" parent="52" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="602" parent="52" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="603" parent="52" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="604" parent="52" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="605" parent="52" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="606" parent="52" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="607" parent="53" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="608" parent="53" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="609" parent="53" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="610" parent="53" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="611" parent="53" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="612" parent="53" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="613" parent="53" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="614" parent="53" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="615" parent="53" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="616" parent="53" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="617" parent="53" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="618" parent="53" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="619" parent="53" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="620" parent="53" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="621" parent="53" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="622" parent="53" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="623" parent="53" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="624" parent="53" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="625" parent="53" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="626" parent="53" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="627" parent="53" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="628" parent="53" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="629" parent="53" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="630" parent="53" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="631" parent="54" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="632" parent="54" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="633" parent="54" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="634" parent="54" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="635" parent="54" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="636" parent="54" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="637" parent="54" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="638" parent="54" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="639" parent="54" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="640" parent="54" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="641" parent="54" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="642" parent="54" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="643" parent="54" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="644" parent="54" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="645" parent="54" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="646" parent="54" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="647" parent="54" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="648" parent="54" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="649" parent="54" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="650" parent="54" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="651" parent="54" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="652" parent="54" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="653" parent="54" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="654" parent="54" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="655" parent="55" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="656" parent="55" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="657" parent="55" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="658" parent="55" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="659" parent="55" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="660" parent="55" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="661" parent="55" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="662" parent="55" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="663" parent="55" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="664" parent="55" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="665" parent="55" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="666" parent="55" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="667" parent="55" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="668" parent="55" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="669" parent="55" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="670" parent="55" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="671" parent="55" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="672" parent="55" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="673" parent="55" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="674" parent="55" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="675" parent="55" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="676" parent="55" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="677" parent="55" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="678" parent="55" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="679" parent="56" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="680" parent="56" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="681" parent="56" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="682" parent="56" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="683" parent="56" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="684" parent="56" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="685" parent="56" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="686" parent="56" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="687" parent="56" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="688" parent="56" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="689" parent="56" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="690" parent="56" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="691" parent="56" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="692" parent="56" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="693" parent="56" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="694" parent="56" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="695" parent="56" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="696" parent="56" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="697" parent="56" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="698" parent="56" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="699" parent="56" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="700" parent="56" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="701" parent="56" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="702" parent="56" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="703" parent="57" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="704" parent="57" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="705" parent="57" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="706" parent="57" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="707" parent="57" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="708" parent="57" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="709" parent="57" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="710" parent="57" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="711" parent="57" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="712" parent="57" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="713" parent="57" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="714" parent="57" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="715" parent="57" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="716" parent="57" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="717" parent="57" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="718" parent="57" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="719" parent="57" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="720" parent="57" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="721" parent="57" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="722" parent="57" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="723" parent="57" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="724" parent="57" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="725" parent="57" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="726" parent="57" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="727" parent="58" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="728" parent="58" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="729" parent="58" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="730" parent="58" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="731" parent="58" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="732" parent="58" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="733" parent="58" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="734" parent="58" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="735" parent="58" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="736" parent="58" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="737" parent="58" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="738" parent="58" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="739" parent="58" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="740" parent="58" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="741" parent="58" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="742" parent="58" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="743" parent="58" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="744" parent="58" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="745" parent="58" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="746" parent="58" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="747" parent="58" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="748" parent="58" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="749" parent="58" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="750" parent="58" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+      <column id="751" parent="59" name="idtb_jv">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="752" parent="59" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="753" parent="59" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="754" parent="59" name="voucherid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="755" parent="59" name="jvid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="756" parent="59" name="vouchername">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="757" parent="59" name="jvabstract">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="758" parent="59" name="accode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="759" parent="59" name="acname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="760" parent="59" name="debit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="761" parent="59" name="credit">
+        <data-type>decimal(16,2)</data-type>
+      </column>
+      <column id="762" parent="59" name="ass01">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="763" parent="59" name="ass02">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="764" parent="59" name="ass03">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="765" parent="59" name="ass04">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="766" parent="59" name="ass05">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="767" parent="59" name="currency">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="768" parent="59" name="exchange">
+        <data-type>decimal(16,8)</data-type>
+      </column>
+      <column id="769" parent="59" name="voucherdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="770" parent="59" name="createdtime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="771" parent="59" name="modifiedtime">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="772" parent="59" name="createdby">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="773" parent="59" name="accountedby">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="774" parent="59" name="PRIMARY">
+        <columns>idtb_jv</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

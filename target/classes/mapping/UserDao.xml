@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xfn.mf.dao.UserDao">
+
+    <resultMap id="userMap" type="com.xfn.mf.bean.User">
+        <id     column="userid"        property="userid"        jdbcType="VARCHAR"/>
+        <result column="password"      property="password"      jdbcType="VARCHAR"/>
+        <result column="username"      property="username"      jdbcType="VARCHAR"/>
+        <result column="defaultsobid"  property="defaultsobid"  jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="userlist">
+        userid,password,username,defaultsobid
+    </sql>
+
+    <select id="getUser" resultMap="userMap">
+        select
+        <include refid="userlist"/>
+        from
+        user
+        where userid = #{userid, jdbcType = VARCHAR}
+    </select>
+</mapper>

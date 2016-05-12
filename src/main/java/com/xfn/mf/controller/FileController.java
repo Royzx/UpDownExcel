@@ -1,6 +1,7 @@
 package com.xfn.mf.controller;
 
 import com.xfn.mf.bean.AC;
+import com.xfn.mf.view.ExcelView;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -49,6 +50,7 @@ public class FileController {
         return mav;
     }
 
+    @RequestMapping("/download")
     public ModelAndView downloanExcel(){
         List<AC> list = new ArrayList<AC>();
         AC ac = new AC();
@@ -62,6 +64,7 @@ public class FileController {
         list.add(ac);
         Map<String,List<AC>> map = new HashMap<String, List<AC>>();
         map.put("infoList",list);
-        return null;
+        ExcelView ve = new ExcelView();
+        return new ModelAndView(ve,map);
     }
 }

@@ -47,5 +47,14 @@ public class AC {
         this.direction = direction;
     }
 
+    @Override
+    public String toString() {
+        return "AC{" +
+                "accode='" + accode + '\'' +
+                ", acname='" + acname + '\'' +
+                ", category='" + category + '\'' +
+                ", direction='" + direction + '\'' +
+                '}';
+    }
 
 }

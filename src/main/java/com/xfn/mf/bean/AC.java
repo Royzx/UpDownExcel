@@ -21,14 +21,6 @@ public class AC {
 
     private String parent;
 
-    public String getParent() {
-        return parent;
-    }
-
-    public void setParent(String parent) {
-        this.parent = parent;
-    }
-
     public String getLeft() {
         return left;
     }
@@ -43,6 +35,14 @@ public class AC {
 
     public void setRight(String right) {
         this.right = right;
+    }
+
+    public String getParent() {
+        return parent;
+    }
+
+    public void setParent(String parent) {
+        this.parent = parent;
     }
 
     public String getAccode() {

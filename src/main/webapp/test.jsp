@@ -17,7 +17,7 @@
 </form>
 
 <h3>测试上传Excel功能</h3>
-<form action="file/upload.htm" enctype="multipart/form-data" method="post">
+<form action="file/upload" enctype="multipart/form-data" method="post">
     <input type="file" name="file"></input>
     <input type="submit" value="上传Excel"></input>
 </form>

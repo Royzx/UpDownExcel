@@ -11,11 +11,11 @@
 <head>
     <title>Title</title>
 </head>
-<n>
+
 <!-- 输出普通字符 -->
 ${message } <br/>
 <!-- 输出List -->
-<p>书籍列表</p>
+<p>科目列表</p>
 <c:forEach items="${content}" var="node">
     <c:out value="${node}"/></br>
 </c:forEach>

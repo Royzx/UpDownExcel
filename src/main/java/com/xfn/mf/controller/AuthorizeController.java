@@ -2,7 +2,7 @@ package com.xfn.mf.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.xfn.mf.bean.User;
-import com.xfn.mf.service.IUserService;
+import com.xfn.mf.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 @RequestMapping("/auth")
 public class AuthorizeController {
 
-    private IUserService userService;
+    private UserService userService;
 
     @RequestMapping(value = "/getUser.do")
     @ResponseBody
@@ -35,7 +35,7 @@ public class AuthorizeController {
 
 
     @Resource
-    public void setUserService(IUserService userService) {
+    public void setUserService(UserService userService) {
         this.userService = userService;
     }
 }

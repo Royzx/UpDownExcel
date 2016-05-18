@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xfn.mf.dao.ACDao">
+
+    <resultMap id="ACMap" type="com.xfn.mf.bean.AC">
+        <id     column="sobid"         property="sobid"         jdbcType="VARCHAR"/>
+        <result column="accode"        property="accode"        jdbcType="VARCHAR"/>
+        <result column="acname"        property="acname"        jdbcType="VARCHAR"/>
+        <result column="category"      property="category"      jdbcType="VARCHAR"/>
+        <result column="direction"     property="direction"     jdbcType="VARCHAR"/>
+        <result column="upperid"       property="upperid"       jdbcType="VARCHAR"/>
+        <result column="leftnum"          property="left"          jdbcType="INTEGER"/>
+        <result column="rightnum"         property="right"         jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="ACColumn">
+      sobid,accode,acname,category,direction,upperid,leftnum,rightnum
+    </sql>
+
+    <insert id="uploadAC" parameterType="java.util.List">
+        insert into  ac (<include refid="ACColumn" /> )
+        values
+        <foreach collection="list" item="item" index="acList" separator=",">
+            (#{item.sobid},#{item.accode},#{item.acname},#{item.category},#{item.direction},#{item.upperid},#{item.left},#{item.right})
+        </foreach>
+    </insert>
+
+
+</mapper>

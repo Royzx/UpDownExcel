@@ -1,9 +1,11 @@
 package com.xfn.mf.bean;
 
+import java.io.Serializable;
+
 /**
  * Created by po on 16/5/12.
  */
-public class AC {
+public class AC implements Serializable,Comparable<AC>{
 
     private String accode;
 
@@ -15,35 +17,13 @@ public class AC {
 
     private String direction;
 
-    private String left;
+    private int left;
 
-    private String right;
+    private int right;
 
-    private String parent;
+    private String upperid;
 
-    public String getLeft() {
-        return left;
-    }
-
-    public void setLeft(String left) {
-        this.left = left;
-    }
-
-    public String getRight() {
-        return right;
-    }
-
-    public void setRight(String right) {
-        this.right = right;
-    }
-
-    public String getParent() {
-        return parent;
-    }
-
-    public void setParent(String parent) {
-        this.parent = parent;
-    }
+    private String sobid;
 
     public String getAccode() {
         return accode;
@@ -77,16 +57,53 @@ public class AC {
         this.direction = direction;
     }
 
+    public int getLeft() {
+        return left;
+    }
+
+    public void setLeft(int left) {
+        this.left = left;
+    }
+
+    public int getRight() {
+        return right;
+    }
+
+    public void setRight(int right) {
+        this.right = right;
+    }
+
+    public String getUpperid() {
+        return upperid;
+    }
+
+    public void setUpperid(String upperid) {
+        this.upperid = upperid;
+    }
+
+    public String getSobid() {
+        return sobid;
+    }
+
+    public void setSobid(String sobid) {
+        this.sobid = sobid;
+    }
+
     @Override
     public String toString() {
         return "AC{" +
+                "sobid='" + sobid + '\'' +
                 "accode='" + accode + '\'' +
                 ", acname='" + acname + '\'' +
                 ", category='" + category + '\'' +
                 ", direction='" + direction + '\'' +
                 ", left='" + left + '\'' +
                 ", right='" + right + '\'' +
-                ", parent='" + parent + '\'' +
+                ", parent='" + upperid + '\'' +
                 '}';
+    }
+
+    public int compareTo(AC o) {
+        return this.accode.compareTo(o.getAccode());
     }
 }

@@ -1,13 +1,7 @@
 package com.xfn.mf.util;
-import com.xfn.mf.bean.User;
-import com.xfn.mf.service.IUserService;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.http.ResponseEntity;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import javax.annotation.Resource;
 import java.io.File;
 import java.io.IOException;
 

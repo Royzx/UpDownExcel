@@ -1,6 +1,5 @@
 package com.xfn.mf.service;
 import com.xfn.mf.bean.User;
-import com.xfn.mf.service.IUserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -16,7 +15,7 @@ import javax.annotation.Resource;
 public class TestUserService {
 
     @Resource
-    private IUserService userService;
+    private UserService userService;
 
     @Test
     public void test()

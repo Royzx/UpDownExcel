@@ -15,13 +15,11 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.xfn.mf.enums.ReturnMessageEnum.returnMsg;
 import static com.xfn.mf.enums.ReturnMessageEnum.returnMsgWithExtra;
 
 /**
@@ -53,6 +51,7 @@ public class WorkbookController {
                         ac.setAccode(row.getCell(0).getStringCellValue());
                         ac.setAcname(row.getCell(1).getStringCellValue());
                         ac.setCategory(row.getCell(2).getStringCellValue());
+
                         ac.setDirection(row.getCell(4).getStringCellValue());
                         list.add(ac);
                     }

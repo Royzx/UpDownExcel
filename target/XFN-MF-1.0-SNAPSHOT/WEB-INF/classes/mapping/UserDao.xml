@@ -22,4 +22,12 @@
         user
         where userid = #{userid, jdbcType = VARCHAR}
     </select>
+    
+    <update id="updateUser">
+        update
+        user
+        set
+        username = #{username}
+        where userid = #{userid}
+    </update>
 </mapper>

@@ -54,12 +54,20 @@ public class HssfServiceImpl implements HssfService {
             ACUtil.i = 0;
         }
 
+
+        //校验aclist中的upperid是否存在对应的accode和其他科目错误
+
         int upload = acDao.uploadAC(acList);
         if (upload != acList.size()){
             return returnMsg(1);
         }
 
         return returnMsg(0);
+    }
+
+    public List<AC> getAClist(String sobid) {
+        List<AC>  acList = acDao.getACList(sobid);
+        return acList;
     }
 
     @Resource

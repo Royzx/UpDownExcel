@@ -2,10 +2,12 @@ package com.xfn.mf.bean;
 
 import com.alibaba.fastjson.JSONObject;
 
+import java.io.Serializable;
+
 /**
  * Created by po on 16/5/11.
  */
-public class User {
+public class User implements Serializable{
 
     private String userid;
 

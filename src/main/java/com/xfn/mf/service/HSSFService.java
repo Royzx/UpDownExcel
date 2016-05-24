@@ -10,4 +10,7 @@ import java.util.List;
  */
 public interface HssfService {
     ReturnMessageEnum resolveAClist(List<AC> list);
+
+    List<AC> getAClist(String sobid);
+
 }

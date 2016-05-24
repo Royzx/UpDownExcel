@@ -8,7 +8,7 @@
 
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:spring-mybatis.xml</param-value>
+    <param-value>classpath:spring-*.xml</param-value>
   </context-param>
 
   <filter>
@@ -44,6 +44,17 @@
   <servlet-mapping>
     <servlet-name>SpringMVC</servlet-name>
     <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <!--logback日志-->
+  <servlet>
+    <servlet-name>ViewStatusMessages</servlet-name>
+    <servlet-class>ch.qos.logback.classic.ViewStatusMessagesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewStatusMessages</servlet-name>
+    <url-pattern>/lbClassicStatus</url-pattern>
   </servlet-mapping>
 
 </web-app>

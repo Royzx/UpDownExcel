@@ -29,12 +29,14 @@ public class FileOperateAction {
         }
         return "redirect:list";
     }
+
     @RequestMapping(value="list")
     public String list(HttpServletRequest request){
         init(request);
         request.setAttribute("map", getMap());
         return "list";
     }
+
     @RequestMapping(value="download")
     public void download(HttpServletRequest request, HttpServletResponse response){
         init(request);

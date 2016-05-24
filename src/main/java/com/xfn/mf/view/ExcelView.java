@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.OutputStream;
 import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -33,7 +36,7 @@ public class ExcelView extends AbstractExcelView{
             cell.setCellValue("科目名称");
             cell = row.createCell(2,Cell.CELL_TYPE_STRING);
             cell.setCellValue("科目类别");
-            cell = row.createCell(4,Cell.CELL_TYPE_STRING);
+            cell = row.createCell(3,Cell.CELL_TYPE_STRING);
             cell.setCellValue("余额方向");
 
             for (int i = 0;i < len;i++ ){
@@ -44,15 +47,18 @@ public class ExcelView extends AbstractExcelView{
                 cell.setCellValue(list.get(i).getAcname());
                 cell = row.createCell(2,Cell.CELL_TYPE_STRING);
                 cell.setCellValue(list.get(i).getCategory());
-                cell = row.createCell(4,Cell.CELL_TYPE_STRING);
+                cell = row.createCell(3,Cell.CELL_TYPE_STRING);
                 cell.setCellValue(list.get(i).getDirection());
-
             }
 
             response.setContentType("application/vnd.ms-excel");
             response.setCharacterEncoding("utf-8");
 
-            String fileName = URLEncoder.encode("科目.xls","utf-8");
+            Calendar date = Calendar.getInstance();
+            SimpleDateFormat format = new SimpleDateFormat("yyyyMMddHHmmss");
+            String time = format.format(date.getTime());
+
+            String fileName = URLEncoder.encode(time+"科目.xls","utf-8");
 
             response.setHeader("Content-disposition","attachment;filename="+fileName);
             OutputStream os = response.getOutputStream();

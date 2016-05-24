@@ -28,5 +28,7 @@ ${message } <br/>
     <%--住址：<c:out value="${node.value}"></c:out>--%>
     <%--<br/>--%>
 <%--</c:forEach>--%>
+<body>
+    用户名为:${usrid}
 </body>
 </html>

@@ -11,4 +11,7 @@ import java.util.List;
 @Repository
 public interface ACDao {
     int uploadAC(List<AC> acList);
+
+    List<AC> getACList(String sobid);
 }
+

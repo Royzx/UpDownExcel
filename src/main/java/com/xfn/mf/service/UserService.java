@@ -8,4 +8,6 @@ import com.xfn.mf.bean.User;
 public interface UserService {
 
     public User getUser(String userid);
+
+    public int updateUser(String userid,String username);
 }

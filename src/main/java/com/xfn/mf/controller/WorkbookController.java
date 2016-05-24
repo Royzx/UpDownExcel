@@ -51,7 +51,6 @@ public class WorkbookController {
                         ac.setAccode(row.getCell(0).getStringCellValue());
                         ac.setAcname(row.getCell(1).getStringCellValue());
                         ac.setCategory(row.getCell(2).getStringCellValue());
-
                         ac.setDirection(row.getCell(4).getStringCellValue());
                         list.add(ac);
                     }
@@ -85,15 +84,8 @@ public class WorkbookController {
     @RequestMapping("/download")
     public ModelAndView downloanExcel() {
         List<AC> list = new ArrayList<AC>();
-        AC ac = new AC();
-        ac.setAccode("1001");
-        ac.setAcname("库存现金");
-        ac.setCategory("流动资金");
-        ac.setDirection("借");
-        list.add(ac);
-        list.add(ac);
-        list.add(ac);
-        list.add(ac);
+        String sobid = "18720971071";
+        list = hssfService.getAClist(sobid);
         Map<String, List<AC>> map = new HashMap<String, List<AC>>();
         map.put("infoList", list);
         ExcelView ve = new ExcelView();

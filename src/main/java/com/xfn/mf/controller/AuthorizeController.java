@@ -72,9 +72,27 @@ public class AuthorizeController {
         return user.getUserid();
     }
 
+    @RequestMapping("/session")
+    @ResponseBody
+    public String sessionTest(HttpServletRequest request){
+
+        Integer uid = Integer.valueOf(request.getParameter("uid"));
+        request.getSession().setAttribute("user",uid);
+        return "OK";
+    }
+
+    @RequestMapping("/getsession")
+    @ResponseBody
+    public String getSession(HttpServletRequest request){
+        int id = (Integer) request.getSession().getAttribute("user");
+        System.out.println("id:"+id);
+        return "OK";
+    }
 
     @Resource
     public void setUserService(UserService userService) {
         this.userService = userService;
     }
+
+
 }

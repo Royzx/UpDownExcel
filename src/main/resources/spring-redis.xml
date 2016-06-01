@@ -45,6 +45,11 @@
 
     <bean id="cacheManager" class="org.springframework.data.redis.cache.RedisCacheManager">
         <constructor-arg ref="redisTemplate"/>
+    </bean>
 
+    <!-- 使用spring-session把http session放到redis里  -->
+    <bean id="redisHttpSessionConfiguration"
+          class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration">
+        <property name="maxInactiveIntervalInSeconds" value="7200" />
     </bean>
 </beans>

@@ -102,6 +102,45 @@
         <aop:pointcut id="DS" expression="execution(public * com.xfn.mf.dao.logdao.*.*(..))"/>
         <aop:advisor advice-ref="dataSourceFilter" pointcut-ref="DS"/>
     </aop:config>
+
+
+    <!--定时任务-->
+    <bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value="10" />
+        <property name="maxPoolSize" value="100" />
+        <property name="queueCapacity" value="500" />
+    </bean>
+
+    <!-- 业务对象 -->
+    <bean id="bizObject" class="com.xfn.mf.util.ExpireJobTask" />
+
+    <!-- 调度业务 -->
+    <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="bizObject" />
+        <property name="targetMethod" value="doBiz" />
+    </bean>
+
+    <!--增加调度触发器-->
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail" />
+        <property name="cronExpression" value="10 0/1 * * * ?" />
+    </bean>
+
+    <bean id="taskTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail" />
+        <property name="startDelay" value="10000" />
+        <property name="repeatInterval" value="60000" />
+    </bean>
+
+    <!-- 设置调度 -->
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger" />
+            </list>
+        </property>
+        <property name="taskExecutor" ref="executor" />
+    </bean>
 </beans>
 
 

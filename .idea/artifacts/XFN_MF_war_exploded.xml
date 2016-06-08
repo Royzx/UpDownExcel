@@ -50,6 +50,10 @@
           <element id="library" level="project" name="Maven: org.springframework.session:spring-session-data-redis:1.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: aspectj:aspectjrt:1.5.3" />
           <element id="library" level="project" name="Maven: aspectj:aspectjweaver:1.5.3" />
+          <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
